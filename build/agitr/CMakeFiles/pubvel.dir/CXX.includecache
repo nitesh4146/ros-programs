@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nitish/Documents/ros-programs/src/agitr/pubvel.cpp
+ros/ros.h
+-
+geometry_msgs/Twist.h
+-
+stdlib.h
+-
+
