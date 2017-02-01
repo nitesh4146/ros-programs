@@ -359,6 +359,104 @@ std_msgs_generate_messages_py/fast:
 	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/std_msgs_generate_messages_py.dir/build.make agitr/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : agitr/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: agitr/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/std_srvs_generate_messages_py.dir/build.make agitr/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/subpose.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/subpose.dir/rule
+.PHONY : agitr/CMakeFiles/subpose.dir/rule
+
+# Convenience name for target.
+subpose: agitr/CMakeFiles/subpose.dir/rule
+.PHONY : subpose
+
+# fast build rule for target.
+subpose/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/build
+.PHONY : subpose/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+.PHONY : agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_cpp: agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+.PHONY : turtlesim_generate_messages_cpp
+
+# fast build rule for target.
+turtlesim_generate_messages_cpp/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+.PHONY : turtlesim_generate_messages_cpp/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+.PHONY : agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_lisp: agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+.PHONY : turtlesim_generate_messages_lisp
+
+# fast build rule for target.
+turtlesim_generate_messages_lisp/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+.PHONY : turtlesim_generate_messages_lisp/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/turtlesim_generate_messages_py.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+.PHONY : agitr/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_py: agitr/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+.PHONY : turtlesim_generate_messages_py
+
+# fast build rule for target.
+turtlesim_generate_messages_py/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build.make agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build
+.PHONY : turtlesim_generate_messages_py/fast
+
 helloros.o: helloros.cpp.o
 .PHONY : helloros.o
 
@@ -407,6 +505,30 @@ pubvel.cpp.s:
 	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/pubvel.dir/build.make agitr/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
 
+subpose.o: subpose.cpp.o
+.PHONY : subpose.o
+
+# target to build an object file
+subpose.cpp.o:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.o
+.PHONY : subpose.cpp.o
+
+subpose.i: subpose.cpp.i
+.PHONY : subpose.i
+
+# target to preprocess a source file
+subpose.cpp.i:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.i
+.PHONY : subpose.cpp.i
+
+subpose.s: subpose.cpp.s
+.PHONY : subpose.s
+
+# target to generate assembly for a file
+subpose.cpp.s:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.s
+.PHONY : subpose.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -434,13 +556,23 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... subpose"
 	@echo "... test"
+	@echo "... turtlesim_generate_messages_cpp"
+	@echo "... turtlesim_generate_messages_lisp"
+	@echo "... turtlesim_generate_messages_py"
 	@echo "... helloros.o"
 	@echo "... helloros.i"
 	@echo "... helloros.s"
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... subpose.o"
+	@echo "... subpose.i"
+	@echo "... subpose.s"
 .PHONY : help
 
 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nitish/Documents/ros-programs/src/agitr/subp.cpp
+ros/ros.h
+-
+turtlesim/Pose.h
+-
+iomanip
+-
+

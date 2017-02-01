@@ -19,4 +19,11 @@
 /home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/std_srvs_generate_messages_py.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/subpose.dir
 /home/nitish/Documents/ros-programs/build/CMakeFiles/tests.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir
+/home/nitish/Documents/ros-programs/build/agitr/CMakeFiles/turtlesim_generate_messages_py.dir
