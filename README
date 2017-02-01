@@ -1,7 +1,7 @@
-#This repository contains programs build in ROS.
+This repository contains programs build in ROS.
 
 1. Hello ROS: A simple node to print "Hello ROS" on command line
-2. Turtlesim publisher node which publishes random values on **turtle1/cmd_vel** for our little turtle to move
+2. Turtlesim publisher node which publishes random values on turtle1/cmd_vel for our little turtle to move
 3. Subscriber node: It subscribes to the topic turtle1/Pose
 
 Reference: A Gentle Introduction to ROS
