@@ -166,6 +166,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "agitr/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
+  "agitr/CMakeFiles/count_and_log.dir/DependInfo.cmake"
   "agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "agitr/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"

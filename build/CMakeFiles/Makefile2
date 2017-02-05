@@ -230,7 +230,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  2
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -261,7 +261,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  3
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -289,6 +289,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory agitr
 
 # Convenience name for "all" pass in the directory.
+agitr/all: agitr/CMakeFiles/count_and_log.dir/all
 agitr/all: agitr/CMakeFiles/hello.dir/all
 agitr/all: agitr/CMakeFiles/pubvel.dir/all
 agitr/all: agitr/CMakeFiles/subpose.dir/all
@@ -296,6 +297,7 @@ agitr/all: agitr/CMakeFiles/subpose.dir/all
 
 # Convenience name for "clean" pass in the directory.
 agitr/clean: agitr/CMakeFiles/_catkin_empty_exported_target.dir/clean
+agitr/clean: agitr/CMakeFiles/count_and_log.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
@@ -352,6 +354,41 @@ agitr/CMakeFiles/_catkin_empty_exported_target.dir/clean:
 
 # clean rule for target.
 clean: agitr/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target agitr/CMakeFiles/count_and_log.dir
+
+# All Build rule for target.
+agitr/CMakeFiles/count_and_log.dir/all:
+	$(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/depend
+	$(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  1
+	@echo "Built target count_and_log"
+.PHONY : agitr/CMakeFiles/count_and_log.dir/all
+
+# Include target in all.
+all: agitr/CMakeFiles/count_and_log.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+agitr/CMakeFiles/count_and_log.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nitish/Documents/ros-programs/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/count_and_log.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nitish/Documents/ros-programs/build/CMakeFiles 0
+.PHONY : agitr/CMakeFiles/count_and_log.dir/rule
+
+# Convenience name for target.
+count_and_log: agitr/CMakeFiles/count_and_log.dir/rule
+.PHONY : count_and_log
+
+# clean rule for target.
+agitr/CMakeFiles/count_and_log.dir/clean:
+	$(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/clean
+.PHONY : agitr/CMakeFiles/count_and_log.dir/clean
+
+# clean rule for target.
+clean: agitr/CMakeFiles/count_and_log.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -454,7 +491,7 @@ clean: agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 agitr/CMakeFiles/hello.dir/all:
 	$(MAKE) -f agitr/CMakeFiles/hello.dir/build.make agitr/CMakeFiles/hello.dir/depend
 	$(MAKE) -f agitr/CMakeFiles/hello.dir/build.make agitr/CMakeFiles/hello.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  4
 	@echo "Built target hello"
 .PHONY : agitr/CMakeFiles/hello.dir/all
 
@@ -489,7 +526,7 @@ clean: agitr/CMakeFiles/hello.dir/clean
 agitr/CMakeFiles/pubvel.dir/all:
 	$(MAKE) -f agitr/CMakeFiles/pubvel.dir/build.make agitr/CMakeFiles/pubvel.dir/depend
 	$(MAKE) -f agitr/CMakeFiles/pubvel.dir/build.make agitr/CMakeFiles/pubvel.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  5
 	@echo "Built target pubvel"
 .PHONY : agitr/CMakeFiles/pubvel.dir/all
 
@@ -896,7 +933,7 @@ clean: agitr/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 agitr/CMakeFiles/subpose.dir/all:
 	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/depend
 	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nitish/Documents/ros-programs/build/CMakeFiles  6
 	@echo "Built target subpose"
 .PHONY : agitr/CMakeFiles/subpose.dir/all
 

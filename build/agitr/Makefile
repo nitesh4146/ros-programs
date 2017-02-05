@@ -164,6 +164,20 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
+agitr/CMakeFiles/count_and_log.dir/rule:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/count_and_log.dir/rule
+.PHONY : agitr/CMakeFiles/count_and_log.dir/rule
+
+# Convenience name for target.
+count_and_log: agitr/CMakeFiles/count_and_log.dir/rule
+.PHONY : count_and_log
+
+# fast build rule for target.
+count_and_log/fast:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/build
+.PHONY : count_and_log/fast
+
+# Convenience name for target.
 agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -457,6 +471,30 @@ turtlesim_generate_messages_py/fast:
 	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build.make agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build
 .PHONY : turtlesim_generate_messages_py/fast
 
+count_and_log.o: count_and_log.cpp.o
+.PHONY : count_and_log.o
+
+# target to build an object file
+count_and_log.cpp.o:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/count_and_log.cpp.o
+.PHONY : count_and_log.cpp.o
+
+count_and_log.i: count_and_log.cpp.i
+.PHONY : count_and_log.i
+
+# target to preprocess a source file
+count_and_log.cpp.i:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/count_and_log.cpp.i
+.PHONY : count_and_log.cpp.i
+
+count_and_log.s: count_and_log.cpp.s
+.PHONY : count_and_log.s
+
+# target to generate assembly for a file
+count_and_log.cpp.s:
+	cd /home/nitish/Documents/ros-programs/build && $(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/count_and_log.cpp.s
+.PHONY : count_and_log.cpp.s
+
 helloros.o: helloros.cpp.o
 .PHONY : helloros.o
 
@@ -536,6 +574,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... count_and_log"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -564,6 +603,9 @@ help:
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_py"
+	@echo "... count_and_log.o"
+	@echo "... count_and_log.i"
+	@echo "... count_and_log.s"
 	@echo "... helloros.o"
 	@echo "... helloros.i"
 	@echo "... helloros.s"

@@ -18,11 +18,11 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(hello helloros.cpp)
 add_executable(pubvel pubvel.cpp)
 add_executable(subpose subpose.cpp)
-
+add_executable(count_and_log count_and_log.cpp)
 
 # Specify libraries against which to link.
 target_link_libraries(hello ${catkin_LIBRARIES})
 target_link_libraries(pubvel ${catkin_LIBRARIES})
 target_link_libraries(subpose ${catkin_LIBRARIES})
-
+target_link_libraries(count_and_log ${catkin_LIBRARIES})
 

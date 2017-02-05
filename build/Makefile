@@ -254,6 +254,19 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
+# Target rules for targets named count_and_log
+
+# Build rule for target.
+count_and_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 count_and_log
+.PHONY : count_and_log
+
+# fast build rule for target.
+count_and_log/fast:
+	$(MAKE) -f agitr/CMakeFiles/count_and_log.dir/build.make agitr/CMakeFiles/count_and_log.dir/build
+.PHONY : count_and_log/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -547,6 +560,7 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... count_and_log"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
