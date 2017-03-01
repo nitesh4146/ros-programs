@@ -81,6 +81,7 @@ subpose_EXTERNAL_OBJECTS =
 
 /home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: agitr/CMakeFiles/subpose.dir/subpose.cpp.o
 /home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: agitr/CMakeFiles/subpose.dir/build.make
+/home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: /opt/ros/indigo/lib/libactionlib.so
 /home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: /opt/ros/indigo/lib/libroscpp.so
 /home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/nitish/Documents/ros-programs/devel/lib/agitr/subpose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

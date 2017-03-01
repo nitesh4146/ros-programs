@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(agitr_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/nitish/Documents/ros-programs/devel/include " STREQUAL " ")
   set(agitr_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/nitish/Documents/ros-programs/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(agitr_EXPORTED_TARGETS "")
+set(agitr_EXPORTED_TARGETS "agitr_generate_messages_cpp;agitr_generate_messages_lisp;agitr_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${agitr_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -153,7 +153,7 @@ foreach(t ${agitr_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "actionlib_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND agitr_EXPORTED_TARGETS ${${agitr_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "agitr-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${agitr_DIR}/${extra})

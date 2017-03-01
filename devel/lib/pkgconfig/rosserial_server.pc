@@ -1,0 +1,8 @@
+prefix=/home/nitish/Documents/ros-programs/devel
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.7.5
+Cflags: -I/home/nitish/Documents/ros-programs/src/rosserial/rosserial_server/include
+Libs: -L/home/nitish/Documents/ros-programs/devel/lib 
+Requires: roscpp rosserial_msgs topic_tools

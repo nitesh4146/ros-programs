@@ -3,6 +3,6 @@ prefix=/home/nitish/Documents/ros-programs/devel
 Name: agitr
 Description: Description of agitr
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/nitish/Documents/ros-programs/devel/include
 Libs: -L/home/nitish/Documents/ros-programs/devel/lib 
-Requires: 
+Requires: actionlib_msgs

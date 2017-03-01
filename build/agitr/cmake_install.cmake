@@ -33,17 +33,42 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nitish/Documents/ros-programs/build/agitr/catkin_generated/installspace/agitr.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr/action" TYPE FILE FILES "/home/nitish/Documents/ros-programs/src/agitr/action/Timer.action")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr/cmake" TYPE FILE FILES
-    "/home/nitish/Documents/ros-programs/build/agitr/catkin_generated/installspace/agitrConfig.cmake"
-    "/home/nitish/Documents/ros-programs/build/agitr/catkin_generated/installspace/agitrConfig-version.cmake"
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr/msg" TYPE FILE FILES
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerAction.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerActionGoal.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerActionResult.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerActionFeedback.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerGoal.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerResult.msg"
+    "/home/nitish/Documents/ros-programs/devel/share/agitr/msg/TimerFeedback.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr" TYPE FILE FILES "/home/nitish/Documents/ros-programs/src/agitr/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr/srv" TYPE FILE FILES "/home/nitish/Documents/ros-programs/src/agitr/srv/WordCount.srv")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agitr/cmake" TYPE FILE FILES "/home/nitish/Documents/ros-programs/build/agitr/catkin_generated/installspace/agitr-msg-paths.cmake")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nitish/Documents/ros-programs/devel/include/agitr")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nitish/Documents/ros-programs/devel/share/common-lisp/ros/agitr")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/nitish/Documents/ros-programs/devel/lib/python2.7/dist-packages/agitr")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nitish/Documents/ros-programs/devel/lib/python2.7/dist-packages/agitr")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
